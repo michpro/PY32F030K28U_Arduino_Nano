@@ -1,0 +1,278 @@
+(footprint "UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "UDFN-4_1x1mm_P0.65mm, http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550x-300mA-Single-Output-LDO-in-Small-Packages-DS20006006A.pdf")
+	(tags "UDFN-4_1x1mm_P0.65mm")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "Eco2.User")
+		(uuid "dbe195e1-265e-4bf9-8af2-794ce61f7357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ME6211CxxU4AG"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "653036ef-c077-4b31-b5df-bff8ce1c0d6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1da200a9-bcef-4d42-8de8-34f4e69e62d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94340e21-2c90-432a-aa3f-2f57075c271e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.61 -0.63)
+		(end 0 -0.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "298704e9-4118-442b-909b-4e9a78ea7391")
+	)
+	(fp_line
+		(start 0.61 0.63)
+		(end -0.61 0.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb78b511-46b3-4db7-a208-630b10db223e")
+	)
+	(fp_line
+		(start -0.9 -0.75)
+		(end 0.9 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85c3fef1-85d7-42b7-a85b-526c5042beb7")
+	)
+	(fp_line
+		(start -0.9 0.75)
+		(end -0.9 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ffd52fc-faec-47f9-a1fc-ea873101f7a0")
+	)
+	(fp_line
+		(start 0.9 -0.75)
+		(end 0.9 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db172d28-4db7-4951-b2e1-e711ab9e0483")
+	)
+	(fp_line
+		(start 0.9 0.75)
+		(end -0.9 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cde836f-ffe4-4e34-8221-73b069370052")
+	)
+	(fp_line
+		(start -0.5 0.5)
+		(end -0.5 -0.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2d75042-1708-45f2-965b-602999f57024")
+	)
+	(fp_line
+		(start -0.12 -0.5)
+		(end -0.5 -0.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb156714-9007-461c-ad73-9ddf2b62c664")
+	)
+	(fp_line
+		(start -0.12 -0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60b5863b-08b4-4b9e-a555-41017bd78aae")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8be1fbb3-3d0a-416f-9828-62c681cd7385")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc748529-02ce-4415-bb65-d7459f9e987f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.04 0.08 0)
+		(layer "F.Fab")
+		(uuid "820123f3-a79c-4a49-8464-f593f678ae3e")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.025)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.54 -0.325)
+		(size 0.22 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.11 0.125) (xy 0.11 -0.125) (xy 0.36 -0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "faf40f18-50c1-4aa1-ba4a-6df33ee5f173")
+	)
+	(pad "2" smd custom
+		(at -0.54 0.325)
+		(size 0.22 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.29 0.055) (xy 0.29 0.125) (xy 0.11 0.125) (xy 0.11 -0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "44094218-782e-48e7-a8f3-c91f3873ff08")
+	)
+	(pad "3" smd custom
+		(at 0.54 0.325)
+		(size 0.22 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.11 0.125) (xy -0.29 0.125) (xy -0.29 0.055) (xy -0.11 -0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d649075e-6679-464d-8485-851c620d856a")
+	)
+	(pad "4" smd custom
+		(at 0.54 -0.325)
+		(size 0.22 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.11 0.125) (xy -0.29 -0.055) (xy -0.29 -0.125) (xy -0.11 -0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "79515cc8-833e-477f-b6e7-d360dac2f006")
+	)
+	(pad "5" smd rect
+		(at 0 0 45)
+		(size 0.48 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "103760cd-45a3-40a2-b8d0-17edb5dde9c8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UDFN-4-1EP_1x1mm_P0.65mm_EP0.48x0.48mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
